@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 OBJECTIVE
+## OBJECTIVE
 Build your own **brick factory** and achieve **at least 27,000 finished bricks/hour** at the **lowest cost** and with **high reliability**.
 
 Your design must include the following production stages:
@@ -16,7 +16,7 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 
 ---
 
-## 🧩 HOW TO PLAY
+## HOW TO PLAY
 - You will choose **one machine per stage**, except:
   - **Extrusion:** requires **two or more** parallel machines.
   - **Packaging:** can have **one or more** parallel machines.
@@ -30,53 +30,53 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 
 ---
 
-## ⚙️ MACHINE CATALOG
+## MACHINE CATALOG
 
-### 🔹 Stage 1: Raw Preparation – Mixers (pick **exactly 1**)
+### Stage 1: Raw Preparation – Mixers (pick **exactly 1**)
 | Model | Description | Cap. (bricks/hr) | Uptime | Eff. Cap. | Cost | Fail% |
 |--------|--------------|----------------:|-------:|-----------:|-----:|------:|
 | **Normal Mixer** | Basic twin-shaft | 32,000 | 0.88 | **28,160** | 2 | 1.5 |
 | **Alpha Mixer** | Reinforced paddles | 34,000 | 0.90 | **30,600** | 3 | 2.0 |
 | **Beta Mixer** | High-torque heavy-duty | 38,000 | 0.92 | **34,960** | 4 | 3.0 |
 
-> ✅ Any single mixer can meet the required output.
+>  Any single mixer can meet the required output.
 
 ---
 
-### 🔹 Stage 2: Shaping – Extruders (parallel **required**)
+### Stage 2: Shaping – Extruders (parallel **required**)
 | Model | Description | Cap. (bricks/hr) | Uptime | Eff. Cap./unit | Cost (each) | Fail% |
 |--------|--------------|----------------:|-------:|----------------:|-------------:|------:|
 | **EX-S** | Single-screw economy | 16,000 | 0.88 | **14,080** | 2 | 1.8 |
 | **EX-A** | Auto vacuum extruder | 20,000 | 0.90 | **18,000** | 3 | 2.5 |
 | **EX-T** | Twin-screw heavy-duty | 24,000 | 0.88 | **21,120** | 4 | 3.5 |
 
-> ⚠️ You **must** use at least two extruders in parallel to reach 27,000/hr.
+>  You **must** use at least two extruders in parallel to reach 27,000/hr.
 
 ---
 
-### 🔹 Stage 3: Drying + Firing (pick **exactly 1**)
+### Stage 3: Drying + Firing (pick **exactly 1**)
 | Model | Description | Cap. (bricks/hr) | Uptime | Eff. Cap. | Cost | Fail% | Notes |
 |--------|--------------|----------------:|-------:|-----------:|-----:|------:|-------|
 | **Room Firing** | Traditional firing room only | 31,000 | 0.88 | **27,280** | 2 | 4.0 | Least reliable |
 | **Chamber Dry+Fire** | Controlled chamber drying & firing | 33,000 | 0.90 | **29,700** | 3 | 2.5 | Balanced |
 | **Tunnel Dry+Fire** | Fully automated tunnel dryer + kiln | 36,000 | 0.92 | **33,120** | 6 | 1.2 | Most reliable, very costly |
 
-> 🚫 Choosing the **Tunnel** setup will leave little budget for multiple extruders.
+>  Choosing the **Tunnel** setup will leave little budget for multiple extruders.
 
 ---
 
-### 🔹 Stage 4: Final Handling – Packaging (1 or more)
+### Stage 4: Final Handling – Packaging (1 or more)
 | Model | Description | Cap. (bricks/hr) | Uptime | Eff. Cap./unit | Cost | Fail% |
 |--------|--------------|----------------:|-------:|----------------:|-----:|------:|
 | **PK-B** | Basic palletizer | 30,000 | 0.92 | **27,600** | 2 | 1.0 |
 | **PK-L** | Line palletizer | 36,000 | 0.90 | **32,400** | 3 | 2.0 |
 | **PK-D** | Dual-lane palletizer | 44,000 | 0.88 | **38,720** | 4 | 3.0 |
 
-> ✅ One packer usually suffices, but adding a second increases reliability.
+> One packer usually suffices, but adding a second increases reliability.
 
 ---
 
-## 💰 RULES SUMMARY
+##  RULES SUMMARY
 
 | Rule | Description |
 |------|--------------|
@@ -90,9 +90,9 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 
 ---
 
-## 📘 EXAMPLES
+##  EXAMPLES
 
-### ✅ **Balanced Factory (Recommended Build)**
+###  **Balanced Factory (Recommended Build)**
 | Stage | Choice | Units | Stage Cap. (bricks/hr) | Cost |
 |--------|---------|--------|----------------:|------:|
 | Mixer | Normal | 1 | 28,160 | 2 |
@@ -101,11 +101,11 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 | Packaging | PK-B | 1 | 27,600 | 2 |
 | **Total** |  |  | **27,600/hr ✅** | **11 ≤ 12 ✅** |
 
-> ✔️ Meets target, within budget, good reliability.
+>  Meets target, within budget, good reliability.
 
 ---
 
-### ⚠️ **Tunnel Trap (Fails Budget)**
+###  **Tunnel Trap (Fails Budget)**
 | Stage | Choice | Units | Cap. | Cost |
 |--------|---------|--------|------:|------:|
 | Mixer | Normal | 1 | 28,160 | 2 |
@@ -114,7 +114,7 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 | Packaging | PK-B | 1 | 27,600 | 2 |
 | **Total** |  |  | **27,600/hr ✅** | **16 ❌ Over Budget** |
 
-> 🚨 Too costly — can’t afford two extruders if Tunnel is used.
+>  Too costly — can’t afford two extruders if Tunnel is used.
 
 ---
 
@@ -135,4 +135,4 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 - You can introduce **random events** (e.g., breakdowns or surges) in bonus rounds.
 
 ---
-eep the line running.” ⚙️
+
