@@ -121,6 +121,9 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 ---
 
 ##  BEHIND THE SCENES (organizer-only logic)
+
+<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/12d18845-0d12-4eb3-8903-2241117efc51" />
+
 - Background losses (drying shrinkage 5%, ignition 3%) are simulated internally.  
 - Firing is oversized and will not bottleneck output.  
 - Players only balance **capacity**, **cost**, and **reliability**.  
