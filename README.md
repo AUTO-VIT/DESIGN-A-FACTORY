@@ -126,10 +126,6 @@ Each stage must be sized carefully so the **slowest stage** doesn’t limit your
 - Players only balance **capacity**, **cost**, and **reliability**.  
 - You can introduce **random events** (e.g., breakdowns or surges) in bonus rounds.
 
-
-
-## ⚙️ BACKGROUND WORKS (Invisible Factory Logic)
-
 These calculations run **in the background** of the game.  
 Players will only pick machines, but the simulation internally converts **tons of clay input → finished fired bricks** using the following parameters and flow.
 
